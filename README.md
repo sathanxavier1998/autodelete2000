@@ -1,10 +1,10 @@
 # AutoDeleterUBot
 
 ## Contact
-Developed by @xditya.
-- [GitHub](https://github.com/xditya)
-- [Telegram](https://xditya.t.me)
-- [Website](https://xditya.me)
+Developed by @mayflower10.
+- [Telegram](https://t.me/mayflower10)
+- [Telegram](https://mayflower10.t.me)
+- [Website](https://github.com)
 
 **Redistibution is strictly prohibited.**
 
@@ -21,13 +21,13 @@ Just add the repository to an empty app and add the vars.
 Add the repository, the vars, and hit deploy.
 
 # Locals/VPS
-- Clone the repository using `git clone https://github.com/xditya/AutoDeleterUBot`
+- Clone the repository using `git clone https://github.com/sathanoftelegram/autodelete2000`
 - Navigate into the folder `cd AutoDeleterUBot`
 - Make a .env file `nano .env` and fill it up.
 - Run the bot `python bot.py`
 
 # Doubts/Support
-Contact me: [@xditya](#contacts)
+Contact me: [@mayflower10](#contacts)
 
 
-(c) [@Bots4Sale](https://t.me/Bots4Sale)
+(c) [for buying repo](https://t.me/mayflower10)
