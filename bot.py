@@ -1,5 +1,5 @@
-# BoilerPlate Generated using https://github.com/xditya/TelethonSnippets Extension.
-# (c) @xditya
+# ente repo edit cheyan ulupp ondo.
+# (c) @mayflower10
 # Redistribution is not allowed.
 
 import asyncio
@@ -49,7 +49,7 @@ if time_to_del is None:
 @client.on(events.NewMessage(incoming=True, func=lambda e: e.is_private))
 async def on_pm_message(event):
     await event.reply(
-        "Hi. I'm an auto deleter userbot. I can delete messages in chats after a specific time interval.\nYou cannot use me here, please @BuyYourBots!"
+        "Hi. I'm an auto deleter userbot. I can delete messages in chats after a specific time interval.\nYou can buy similar bots like me from @mayflower10 "
     )
 
 
