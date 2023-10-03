@@ -21,10 +21,10 @@ log = logging.getLogger("TelethonSnippets")
 try:
     API_ID = config("25742241", cast=int)
     API_HASH = config("6d158174dd23c6cafbd99aff6ae1ba4")
-    SESSION = config("-1001738037090")
+    SESSION = config("1ApWapzMBu2Qd8EWO8bgCQtQ90f2ZArFougAjTJZ40ecR-UWbKpEkfCllb8AX1alA7rEfqZq5WP_A0pGWJqSMZFfAU-jgHw68_7x25JJAwEu-qF_x1fLQoMzg0AbKh87dE_Zpraim3x-IPu_urvzLGQuN2jMHiF1pWf2Pg7lVUaNdKrcziclSeEm6DdXLBorCbXKex1brujLhkeUR6Q86NJnkKf-Y3AYN5DgITqpRp-UwL79X2oiTs62UXkI9Nyw9mXCGyiaX5XkOXiFgao2HTTJuqnpef0eJjfRQvwWh8G4LxWuF_iZQFH9CB97ByxDSEFL7YzM1C_rgKlA7QQ6b7tKseCF80PA=")
     DELETE_IN = config("10m")
     WORK_CHAT_IDS = config(
-        "WORK_CHAT_IDS", cast=lambda v: [int(x) for x in v.split(" ")]
+        "WORK_CHAT_IDS", cast=lambda v: [int(x) for x in v.split("-1001738037090")]
     )
 except BaseException as ex:
     log.info(ex)
