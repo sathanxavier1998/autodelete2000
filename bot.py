@@ -19,10 +19,10 @@ log = logging.getLogger("TelethonSnippets")
 
 # fetching variales from env
 try:
-    API_ID = config("API_ID", cast=int)
-    API_HASH = config("API_HASH")
-    SESSION = config("SESSION")
-    DELETE_IN = config("DELETE_IN")
+    API_ID = config("25742241", cast=int)
+    API_HASH = config("6d158174dd23c6cafbd99aff6ae1ba4")
+    SESSION = config("-1001738037090")
+    DELETE_IN = config("10m")
     WORK_CHAT_IDS = config(
         "WORK_CHAT_IDS", cast=lambda v: [int(x) for x in v.split(" ")]
     )
