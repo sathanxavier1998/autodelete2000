@@ -1,8 +1,8 @@
 # AutoDeleterUBot
 
 ## Contact
-Developed by @mayflower10.
-- [Telegram](https://t.me/mayflower10)
+Developed by @Sathan_Of_Telegeram
+- [Telegram](https://t.me/Sathan_Of_Telegram)
 - [Telegram](https://mayflower10.t.me)
 - [Website](https://github.com)
 
@@ -27,7 +27,7 @@ Add the repository, the vars, and hit deploy.
 - Run the bot `python bot.py`
 
 # Doubts/Support
-Contact me: [@mayflower10](#contacts)
+Contact me: [@Sathan_of_telegram](#contacts)
 
 
-(c) [for buying repo](https://t.me/mayflower10)
+(c) [for buying repo](https://t.me/sathan_of_telegram)
