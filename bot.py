@@ -21,7 +21,7 @@ log = logging.getLogger("TelethonSnippets")
 try:
     API_ID = config("25742241", cast=int)
     API_HASH = config("6d158174dd23c6cafbd99aff6ae1ba4")
-    SESSION = config("1ApWapzMBu2Qd8EWO8bgCQtQ90f2ZArFougAjTJZ40ecR-UWbKpEkfCllb8AX1alA7rEfqZq5WP_A0pGWJqSMZFfAU-jgHw68_7x25JJAwEu-qF_x1fLQoMzg0AbKh87dE_Zpraim3x-IPu_urvzLGQuN2jMHiF1pWf2Pg7lVUaNdKrcziclSeEm6DdXLBorCbXKex1brujLhkeUR6Q86NJnkKf-Y3AYN5DgITqpRp-UwL79X2oiTs62UXkI9Nyw9mXCGyiaX5XkOXiFgao2HTTJuqnpef0eJjfRQvwWh8G4LxWuF_iZQFH9CB97ByxDSEFL7YzM1C_rgKlA7QQ6b7tKseCF80PA=")
+    SESSION = config("1ApWapzMBu7W-ICyHrHYgRpN4MqbO19pQeueLFKGVavVD-37rBPENkmwUG_LKsL8K7o8ehq4BxdpM8ODAEWNSGEIYW5thJt8elVUi1FzURrlK2dSlmeALVRu4TkuL6GaSt_I49Km0SzVPNyoPhvrJwSlJaNJf2Ar_5_b1MZo4UhfwEXqsshmh6LW9HKF1ivOBqqQqSTYnlVKy8vasi8TGKCIHZaM8OUmhX-Rz93ErniKHClhY2QM530vN7eO7mwPYNGWe2G5nLS5yH1828_5EpkROH6JiLfx0OXE5TRm3YxhrB1CbDtAquKCpj-7Y6qKOXOMAg_dFXXSEcz7cbo4UsL9VA7kNZt0=")
     DELETE_IN = config("10m")
     WORK_CHAT_IDS = config(
         "WORK_CHAT_IDS", cast=lambda v: [int(x) for x in v.split("-1001738037090 -1001921608988")]
